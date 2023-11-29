@@ -3058,7 +3058,7 @@ button:disabled,
       rgba(255, 228, 180, 0.175)
     );
   background-size: 128px 128px, auto;
-  background-color: #323459;
+  background-color: #2e2e3a;
 }
 
 @media screen and (max-width: 736px) {

@@ -329,7 +329,7 @@
                     const message = document.getElementById("message").value;
 
                     // Constrói a mensagem para enviar para o WhatsApp
-                    const whatsappMessage = `Olá estou entrando em contato atraves trabalho do Gildo \n\nNome: ${name}\nEmail: ${email}\nMensagem: ${message}`;
+                    const whatsappMessage = `Olá estou entrando em contato atraves New Angle Pictures \n\nNome: ${name}\nEmail: ${email}\nMensagem: ${message}`;
 
                     // Número de telefone para o qual você deseja enviar a mensagem no formato internacional
                     const phoneNumber = "55044991658351";
@@ -352,27 +352,24 @@
             <div class="span-1-5">
               <ul class="contact-icons color1">
                 <li class="icon brands fa-twitter">
-                  <a href="https://instagram.com/raul_sigoli" target="_blank"
-                    >@raul_sigoli</a
-                  >
+                  <a  onclick="mostrarAlerta()">@new_angle_Pictures</a>
                 </li>
                 <li class="icon brands fa-facebook-f">
-                  <a href="https://instagram.com/raul_sigoli" target="_blank"
-                    >@raul_sigoli</a
-                  >
+                  <a  onclick="mostrarAlerta()">@new_angle_Pictures</a>
                 </li>
-                <li class="icon brands fa-snapchat-ghost">
-                  <a href="https://instagram.com/raul_sigoli" target="_blank"
-                    >@raul_sigoli</a
-                  >
-                </li>
+                
                 <li class="icon brands fa-instagram">
-                  <a href="https://instagram.com/raul_sigoli" target="_blank"
-                    >@raul_sigoli</a
-                  >
+                  <a  onclick="mostrarAlerta()">@new_angle_Pictures</a>
                 </li>
               </ul>
             </div>
+            
+            <script>
+              function mostrarAlerta() {
+                alert("Clicou no link!, Iria redirecionado para outra tela");
+              }
+            </script>
+            
           </div>
         </section>
       </div>
