@@ -2974,7 +2974,7 @@ button:disabled,
       rgba(255, 228, 180, 0.25)
     );
   background-size: 128px 128px, auto;
-  background-color: #726193;
+  background-color: #427ba4;
 }
 
 .panel.color2 {
@@ -3734,28 +3734,29 @@ button:disabled,
 }
 
 .panel.banner .content {
-  padding: 3.5rem 3.5rem 2rem 3.5rem;
+  padding: 3.5rem 3.5rem 2rem 3.5rem; /* Espaçamento interno (top, right, bottom, left) */
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex;
+  display: flex; /* Define a exibição como flexível para permitir layout flexível */
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;
+  flex-direction: column; /* Define a direção do layout como coluna */
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
-  justify-content: center;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;
-  flex-grow: 0;
+  flex-grow: 0; /* Impede o crescimento do conteúdo além do necessário */
   -moz-flex-shrink: 0;
   -webkit-flex-shrink: 0;
   -ms-flex-shrink: 0;
-  flex-shrink: 0;
+  flex-shrink: 0; /* Impede a contração do conteúdo além do necessário */
 }
+
 
 .panel.banner .content > .actions:last-child {
   margin-bottom: 0;
