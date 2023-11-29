@@ -989,6 +989,7 @@ input[type="radio"] + label:before {
       rgba(227, 123, 124, 0.25) 50%,
       rgba(255, 228, 180, 0.25)
     );
+    
   background-size: 128px 128px, auto;
   pointer-events: none;
   content: "";
@@ -2312,8 +2313,10 @@ button:disabled,
 
 .panel > *.color0 {
   background-image: url("../../images/overlay.png"),
-    linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+
+    linear-gradient(331deg, #ad9a9f 50%, #ffe4b4);
   background-size: 128px 128px, auto;
+  
 }
 
 .panel > *.color1 {
